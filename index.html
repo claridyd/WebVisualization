@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Latitude <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdpown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Max Temperature</a>
+                      <a class="dropdown-item" href="LatvsHumid.png">Humidity</a>
+                      <a class="dropdown-item" href="LatvsCloud.png">Cloudiness</a>
+                      <a class="dropdown-item" href="LatvsWind.png">Wind Speed</a>
+                      <div class="dropdown-divider"></div>
+                    </div>
+                        
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </div>
+    <div class="container">
+                <div class="row">
+            <div class="col-sd-8">
+                <div class="box">
+                   <h3>Summary: Latitude vs. X</h3>
+                   <img src="LatvsTemp.png">
+                   <p>The purpose of this project was to analyze how weather changes as you get 
+                    closer to the equator.  To accomplish this analysis, we first pulled data 
+                    from the OpenWeather API to assemble a dataset on over 500 cities.
+
+                    After assembling the dataset, we used Matplolib to plot various aspects of
+                    the weather vs. latitude.  Factors we looked at included: temperature,
+                    cloudiness, wind speed and humidity.  This site provide the source data
+                    and visualizations created as part of the analysis, as well as explations
+                    and descriptions of any trends and corrections witnessed.
+                   </p>
+               </div>
+            </div>   
+               <div clss="col-sd-4">
+                   <div class="box">
+                       <h3>Visualizations</h3>
+                       <img src="LatvsTemp.png">
+                       <img src="LatvsWind.png">
+                       <img src="LatvsHumid.png">
+                       <img src="LatvsCloud.png">
+                   </div>
+               </div>
+            </div>
+        <div class="col-md-8">
+
+            
+
+  <div class="container">
+      <div class="row">
+
+      </div>
+
+  </div>
