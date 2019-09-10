@@ -1,37 +1,37 @@
 body {
-  font-size: 10px;
+  font-size: 14px;
   color: #212529;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: darkgray;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
-
-
-
-
-
-
+.left {
+  float: left;
+  padding: 0 20px 20px 0;
+  width: 250px;
+}
 
 .box {
     height: 400px;
     padding: 20px;
     color: black;
-    background: rgb(186, 228, 238);
+    background: rgb(221, 221, 223);
   }
   
   .margin-top-80 {
     margin-top: 80px;
   }
   #mainNav {
-    position: absolute;
-    border-bottom: 1px solid #e9ecef;
-    background-color: gray;
+    border-bottom: 1px solid #002244;
+    background-color: rgb(109, 108, 108);
+    padding: 10px;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   #mainNav .navbar-brand {
     font-weight: 800;
-    color: #343a40;
+    color: white;
+    background-color: cornflowerblue;
   }
   
   #mainNav .navbar-toggler {
@@ -56,17 +56,17 @@ body {
     }
     #mainNav .navbar-brand {
       padding: 10px 20px;
-      color: #fff;
+      color: black;
     }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: rgba(255, 255, 255, 0.8);
     }
     #mainNav .navbar-nav > li.nav-item > a {
       padding: 10px 20px;
-      color: #fff;
+      color: black;
     }
     #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: black;
     }
   }
   
@@ -81,7 +81,7 @@ body {
     }
     #mainNav.is-fixed {
       /* when the user scrolls down, we hide the header right above the viewport */
-      position: fixed;
+      position: fixed; 
       top: -67px;
       -webkit-transition: -webkit-transform 0.2s;
       transition: -webkit-transform 0.2s;
