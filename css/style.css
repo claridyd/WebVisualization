@@ -65,8 +65,20 @@ body {
       padding: 10px 20px;
       color: black;
     }
-    #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-      color: black;
+    #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover,
+     .dropdown-menu > a:hover {
+      color: cornflowerblue;
+    }
+    .dropdown-menu  {
+      position: absolute;
+      top: 5;
+      font-size: 15px;
+      padding: 0px;
+      font-weight: 800;
+      min-width: 160px;
+      z-index: 1;
+      
+
     }
   }
   
@@ -107,4 +119,6 @@ body {
       -webkit-transform: translate3d(0, 100%, 0);
       transform: translate3d(0, 100%, 0);
     }
+
+    
   }
